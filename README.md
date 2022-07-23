@@ -1,7 +1,7 @@
 Building Scene Classification
 ==============================
 
-Classification of building scenes using Street View Imagery by incorporating neighborhood information with building instance predictions
+Classification of building scenes using Street View Imagery by incorporating neighborhood information with building instance predictions.
 
 Project Organization
 ------------
@@ -14,8 +14,6 @@ Project Organization
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
@@ -33,24 +31,21 @@ Project Organization
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
+        ├── __init__.py    <- Makes src a Python module
+        │
+        ├── data           <- Scripts to download or generate data
+        │   └── make_dataset.py
+        │
+        ├── features       <- Scripts to turn raw data into features for modeling
+        │   └── build_features.py
+        │
+        ├── models         <- Scripts to train models and then use trained models to make
+        │   │                 predictions
+        │   ├── predict_model.py
+        │   └── train_model.py
+        │
+        └── visualization  <- Scripts to create exploratory and results oriented visualizations
+            └── visualize.py
 
 --------
 
@@ -59,7 +54,10 @@ Project Organization
 
 TO DO
 
-- [ ] initialize with structure template
-- [ ] save .ipynb files as .py files
+- [x] initialize with structure template
+- [x] save .ipynb files as .py files
+- [x] add figures
+- [ ] add GPU/TPU requirements
 - [ ] add dataset links
 - [ ] clean .py files
+- [ ] update readme
