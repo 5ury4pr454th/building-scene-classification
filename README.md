@@ -1,7 +1,11 @@
 Building Use Classification
 ==============================
 
-Classification of building scenes using Street View Imagery by incorporating neighborhood information with building instance predictions.
+Based on the paper:
+
+Automatizing the generation of building usage maps from geotagged street view images using deep learning
+
+To be organized.
 
 TO DO
 
