@@ -1,5 +1,4 @@
 # Building Use Classification
-==============================
 
 Based on the paper [Automatizing the generation of building usage maps from geotagged street view images using deep learning](https://doi.org/10.1016/j.buildenv.2023.110215).
 
